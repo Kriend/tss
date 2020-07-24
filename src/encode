@@ -1,0 +1,18 @@
+/*
+ * 
+ */
+#ifndef TSS_ENCODE
+#define TSS_ENCODE
+
+#include <string>
+
+namespace tss {
+std::wstring atou(const std::string& str);
+std::string atou8(const std::string& str);
+std::string utoa(const std::wstring& str);
+std::string utou8(const std::wstring& str);
+std::string u8toa(const std::string& str);
+std::wstring u8tou(const std::string& str);
+}
+
+#endif // !TSS_ENCODE
